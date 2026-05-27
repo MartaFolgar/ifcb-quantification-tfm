@@ -21,3 +21,10 @@
 - correlation_jsd.py
   
   Analyze correlations between MAE, MRAE, and JSD per sample and Functional Group across hierarchical levels and quantification methods.
+
+## Execution pipeline
+python scripts/compute_jsd.py
+python scripts/run_quantifiers.py
+python scripts/ifcb_results.py
+python scripts/ifcb_aggregation_analysis.py
+python scripts/correlation_jsd.py
