@@ -90,7 +90,29 @@ quapy==0.2.0
 ```
 
 ---
+## Dataset
 
+The dataset used in this project is the WHOI-Plankton dataset:
+
+https://github.com/hsosik/WHOI-Plankton
+
+The dataset contains plankton images grouped into samples acquired over time and annotated at different taxonomic levels.
+
+---
+## Quantification methods
+
+The following quantification methods from the QuaPy library were evaluated:
+
+https://github.com/HLT-ISTI/QuaPy
+
+- CC (Classify and Count)
+- ACC (Adjusted Classify and Count)
+- PCC (Probabilistic Classify and Count)
+- PACC (Probabilistic Adjusted Classify and Count)
+- EMQ (Expectation Maximization for Quantification)
+- DMy (Distribution Matching)
+
+---
 ## Scripts
 
 ### Local scripts
