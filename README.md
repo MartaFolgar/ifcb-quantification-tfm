@@ -77,10 +77,6 @@ quapy==0.2.0
   
   Compute Jensen–Shannon divergence (JSD) for AutoClass and OriginalClass hierarchical levels after aggregating classes into Functional Groups.
 
-- run_quantifiers.py
-  
-  Evaluate quantification methods on the IFCB dataset.
-
 - ifcb_results.py
   
   Compute MAE and MRAE per method and hierarchy level.
