@@ -9,7 +9,7 @@ Input:
             - test/
             - test_prevalences.csv
 Output: 
-    - /results/ifcb_quantification_results_{method}.csv
+    - /results/quantification_results_{level}/ifcb_quantification_results_{method}.csv
 '''
 
 import os
