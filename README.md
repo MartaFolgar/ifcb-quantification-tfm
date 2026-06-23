@@ -1,5 +1,27 @@
 # TFM
 
+Repository containing the code developed for the Master's Thesis:
+
+*Quantification of Marine Plankton Prevalence from Flow Cytometry Images*
+
+*Estimación de la prevalencia de especies de plancton marino mediante cuantificación basada en imágenes de citometría de flujo*
+
+This project evaluates several quantification methods on the IFCB (Imaging FlowCytobot) dataset and investigates the relationship between dataset shift and quantification error across different levels of the taxonomic hierarchy. The study focuses on estimating the prevalence of marine plankton taxa from flow cytometry images and analyzing how changes in class distributions affect quantification performance.
+
+## Repository Structure
+
+```text
+.
+├── data/
+├── results/
+├── scripts/
+│   ├── local/
+│   └── server/
+├── requirements_local.txt
+├── requirements_server.txt
+└── README.md
+```
+
 ## Environments
 
 Two different environments were used during the development of this project.
