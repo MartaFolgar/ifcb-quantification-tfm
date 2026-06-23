@@ -8,6 +8,7 @@ Repository containing the code developed for the Master's Thesis:
 
 This project evaluates several quantification methods on the IFCB (Imaging FlowCytobot) dataset and investigates the relationship between dataset shift and quantification error across different levels of the taxonomic hierarchy. The study focuses on estimating the prevalence of marine plankton taxa from flow cytometry images and analyzing how changes in class distributions affect quantification performance.
 
+---
 ## Repository Structure
 
 ```text
@@ -22,6 +23,7 @@ This project evaluates several quantification methods on the IFCB (Imaging FlowC
 └── README.md
 ```
 
+---
 ## Environments
 
 Two different environments were used during the development of this project.
