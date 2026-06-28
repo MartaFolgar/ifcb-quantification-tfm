@@ -9,7 +9,7 @@ Input:
             - test/
             - test_prevalences.csv
 Output: 
-    - /results/quantification_results_{level}/ifcb_quantification_results_{method}.csv
+    - /results/ifcb_quantification_results_{method}.csv
 '''
 
 import os
@@ -66,9 +66,7 @@ quantifiers = {
     "EMQ": EMQ(clone(calibrated_clf)),
 
     # Distribution matching
-    "DMy_b4": DMy(clone(calibrated_clf), nbins=4),
-    "DMy_b8": DMy(clone(calibrated_clf), nbins=8),
-    "DMy_b16": DMy(clone(calibrated_clf), nbins=16)
+    "DMy_b4": DMy(clone(calibrated_clf), nbins=4)
 }   
 
 # Create output directory
