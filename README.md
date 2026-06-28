@@ -131,10 +131,6 @@ https://github.com/HLT-ISTI/QuaPy
   
   Compute MAE and MRAE across hierarchical levels (FG, AutoClass, OriginalClass) for granularity analysis.
 
-- correlation_jsd.py
-  
-  Analyze correlations between MAE, MRAE, and JSD per sample and Functional Group across hierarchical levels and quantification methods.
-
 ### Server scripts
 
 - run_quantifiers.py
@@ -167,12 +163,6 @@ python scripts/local/ifcb_results.py
 
 ```bash
 python scripts/local/ifcb_aggregation_analysis.py
-```
-
-### 5. Analyze correlation between JSD and quantification error (local)
-
-```bash
-python scripts/local/correlation_jsd.py
 ```
 
 ---
