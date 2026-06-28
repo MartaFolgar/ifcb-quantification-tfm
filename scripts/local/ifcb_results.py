@@ -113,11 +113,6 @@ for level in levels:
     sample_metrics["level"] = level
     sample_metrics_levels[level] = sample_metrics
 
-    sample_metrics.to_csv(
-        os.path.join(output_dir, f"sample_metrics_{level}.csv"),
-        index=False
-    )
-
     # Compute mean and standard deviation across samples
     summary = (
         sample_metrics
