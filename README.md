@@ -2,8 +2,6 @@
 
 Repository containing the code developed for the Master's Thesis:
 
-*Quantification of Marine Plankton Prevalence from Flow Cytometry Images*
-
 *Marine Plankton Species Prevalence Estimation through Quantification Based on Imaging Flow Cytometry Images*
 
 This repository contains the code used to investigate the performance of several quantification methods on the WHOI-Plankton dataset and to analyze how dataset shift and taxonomic granularity affect class prevalence estimation. 
