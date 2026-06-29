@@ -4,9 +4,9 @@ Repository containing the code developed for the Master's Thesis:
 
 *Quantification of Marine Plankton Prevalence from Flow Cytometry Images*
 
-*Estimación de la prevalencia de especies de plancton marino mediante cuantificación basada en imágenes de citometría de flujo*
+*Marine Plankton Species Prevalence Estimation through Quantification Based on Imaging Flow Cytometry Images*
 
-This project evaluates several quantification methods on the IFCB (Imaging FlowCytobot) dataset and investigates the relationship between dataset shift and quantification error across different levels of the taxonomic hierarchy. The study focuses on estimating the prevalence of marine plankton taxa from flow cytometry images and analyzing how changes in class distributions affect quantification performance.
+This repository contains the code used to investigate the performance of several quantification methods on the WHOI-Plankton dataset and to analyze how dataset shift and taxonomic granularity affect class prevalence estimation. 
 
 ---
 ## Repository Structure
@@ -94,7 +94,7 @@ quapy==0.2.0
 ---
 ## Dataset
 
-The dataset used in this project is the WHOI-Plankton dataset:
+This work uses the WHOI-Plankton dataset released by the Woods Hole Oceanographic Institution (WHOI):
 
 https://github.com/hsosik/WHOI-Plankton
 
